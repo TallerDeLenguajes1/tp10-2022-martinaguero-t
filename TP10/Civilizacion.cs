@@ -10,13 +10,6 @@ public class Civilizacion
     public List<string> unique_tech { get; set; }
     public string team_bonus { get; set; }
     public List<string> civilization_bonus { get; set; }
-
     public Civilizacion(){}
-
-}
-
-public class ListaCivilizaciones{
-    public List<Civilizacion> civilizations {get; set;}
-    public ListaCivilizaciones(){}
 
 }
